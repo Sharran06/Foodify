@@ -34,8 +34,10 @@
 .explore-menu-list-item img{
     width: 7.5vw;
     min-width: 80px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 15px;
     transition: 0.2s;
 }
 .explore-menu-list-item .active{
